@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 95px;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+    margin: 0 auto;
+    max-width: 1200px;
+    color: white;
+    background-color: #5FBFB2;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+header img{
+    width: 160px;
+}
+nav a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn{
+    border: 2px solid white;
+    padding: 15px;
+    border-radius: 15px;
+}
+nav a:hover{
+    background-color: #469187;
+    padding: 15px;
+    border-radius: 0px 10px 0px 10px;
+    transition: 0.3s;
+}
+.btn:hover{
+    background-color: white;
+    color: #49978d;
+    transition: 0.3s;
+    text-decoration: none;
+}
+main{
+    display: flex;
+    margin-bottom: 90px;
+}
+aside{
+    margin-left: 37px;
+}
+aside h1{
+    font-size: 50px;
+    line-height: 10px;
+}
+aside p{
+    font-size: 18px;
+    width: 500px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+input{
+    padding: 20px;
+    margin-bottom: 7px;
+    margin-left: -2px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+input:focus{
+    background-color: rgb(235, 235, 235);
+}
+input::placeholder{
+    color: rgb(137, 137, 137);
+}
+.botao{
+    background-color: #49978d;
+    color: white;
+    width: 200px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+main img{
+    width: 680px;
+}
+.sobre{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sobre div{
+    margin-left: 40px;
+}
+.sobre h2{
+    font-size: 55px;
+    line-height: 10px;
+}
+.sobre p{
+    font-size: 18px;
+}
+.sobre img{
+    width: 600px;
+    margin-left: 10px;
+}
+.cd h2{
+    text-align: center;
+    font-size: 50px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    width: 33%;
+    background-color: #49978d;
+    color: white;
+    border: #49978d;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+    height: 210px;
+    text-align: center;
+}
+.card:hover{
+    margin-top: 40px;
+    transition: 0.3s;
+}
+.certificado{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 90px;
+}
+.componente{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.selo{
+    width:100px;
+    margin-bottom: 15px;
+}
+.centro{
+    text-align: center;
+    width: 60%;
+}
+.dep h2{
+    text-align: center;
+    line-height: 10px;
+    font-size: 50px;
+}
+.palavras{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.depoimento2 img{
+    width: 160px;
+    border-radius: 50%;
+}
+.depoimento2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    background-color: #49978d;
+    border-radius: 15px;
+    width: 600px;
+    height: 500px;
+}
+.depoimento2 p{
+    text-align: center;
+    width: 300px;
+}
+.depoimento2:hover{
+    margin-bottom: 100px;
+    transition: 0.3s;
+}
+
+
+
+
+
+
+
+.tudo{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    background-color: #5FBFB2;
+}
+.login{
+    font-weight: 500;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #224641;
+    border-radius: 15px;
+    height: 500px;
+    width: 500px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212);
+}
+.butao{
+    width: 200px;
+    background-color: #3f8279;
+    color: white;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 20px;
+}
+input:focus{
+    background-color: rgb(230, 230, 230);
+}
+input::placeholder{
+    color: rgb(108, 108, 108);
+}
